@@ -1,0 +1,277 @@
+/* PRODUCT: METIS ONE PAGE
+   ---------------------------------------- */
+
+/* Genel section spacing */
+
+main > section {
+  padding: 64px 0;
+}
+
+@media (max-width: 640px) {
+  main > section {
+    padding: 48px 0;
+  }
+}
+
+/* HERO */
+
+.product-hero {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  background: radial-gradient(circle at top right, rgba(34, 197, 190, 0.12), transparent),
+              linear-gradient(to bottom, #ffffff, #f9fafb);
+}
+
+.product-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.product-hero-text {
+  flex: 1.1;
+}
+
+.product-hero-text h1 {
+  font-size: clamp(26px, 3vw, 32px);
+  margin-bottom: 12px;
+}
+
+.product-hero-text p {
+  font-size: 15px;
+  color: var(--color-muted);
+  max-width: 520px;
+}
+
+.product-hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.product-hero-image {
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 24px;
+  box-shadow: var(--shadow-soft);
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Mobile hero */
+
+@media (max-width: 960px) {
+  .product-hero-inner {
+    flex-direction: column-reverse;
+  }
+
+  .product-hero-text {
+    text-align: center;
+    align-items: center;
+  }
+
+  .product-hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* SEGMENTS */
+
+.product-segments {
+  background-color: #ffffff;
+}
+
+.product-segments-grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.segment-card {
+  background-color: #f9fafb;
+  border-radius: 22px;
+  padding: 18px 18px 20px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.segment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-strong);
+  background-color: #ffffff;
+}
+
+.segment-icon {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 16px;
+  background-color: #e5f6f6;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.segment-card h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.segment-card p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* Segments responsive */
+
+@media (max-width: 1024px) {
+  .product-segments-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .product-segments-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FEATURES */
+
+.product-features {
+  background-color: #f9fafb;
+}
+
+.product-features-grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 18px 18px 20px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-icon-wrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  background: rgba(13, 148, 136, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.feature-icon {
+  font-size: 80px;
+  color: var(--color-primary-dark);
+}
+
+.feature-card h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* Features responsive */
+
+@media (max-width: 800px) {
+  .product-features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* WORKFLOW */
+
+#workflow {
+  background-color: #ffffff;
+}
+
+.workflow-steps {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.workflow-steps li + li {
+  margin-top: 12px;
+}
+
+.workflow-steps h3 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.workflow-steps p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+.product-workflow-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-workflow-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 6px;
+}
+
+/* FINAL CTA küçük ayar */
+
+.final-cta {
+  background: linear-gradient(to right, #0f766e, #14b8a6);
+  color: #ffffff;
+}
+
+.final-cta h2,
+.final-cta p {
+  color: #ffffff;
+}
+
+/* PURE WHITE BUTTON */
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: var(--color-text, #1a1f2b);
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: all 0.18s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+.btn-white:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3X2RJYGFSD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3X2RJYGFSD');
+  </script>
+  <meta charset="UTF-8" />
+  <title data-i18n="meta.contacts.title">Metis One — Contacts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description"
+        content="Contact Metis One: email, LinkedIn, YouTube and a short form to request a demo of the tender module."
+        data-i18n-attr="content:meta.contacts.description" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/contacts.css" />
+</head>
+<body>
+  <div data-include="header"></div>
+
+  <main>
+    <section class="contacts-hero">
+      <div class="container">
+        <h1 data-i18n="contacts.hero.title">
+          Contacts & demo request
+        </h1>
+        <p class="section-intro" data-i18n="contacts.hero.subtitle">
+          Write a short message about your company and tenders — we’ll reply with proposed time for a call and a demo.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contacts-grid">
+        <!-- LEFT: CONTACT INFO -->
+        <div class="contacts-info card">
+          <h2 data-i18n="contacts.info.title">How you can reach us</h2>
+          <p data-i18n="contacts.info.text">
+            Choose the channel that is most convenient for you.
+          </p>
+
+          <ul class="contacts-list">
+            <li>
+              <strong data-i18n="contacts.info.email.label">Email:</strong>
+              <a href="mailto:info@metisone.com">info@metisone.com</a>
+            </li>
+            <li>
+              <strong data-i18n="contacts.info.linkedin.label">LinkedIn:</strong>
+              <a href="https://www.linkedin.com/company/metis-one" target="_blank" rel="noopener">
+                LinkedIn / Metis One
+              </a>
+            </li>
+            <li>
+              <strong data-i18n="contacts.info.youtube.label">YouTube:</strong>
+              <a href="https://www.youtube.com/@metisone" target="_blank" rel="noopener">
+                YouTube / Metis One
+              </a>
+            </li>
+          </ul>
+
+          <div class="contacts-note">
+            <p data-i18n="contacts.info.note">
+              For detailed legal information (company details, address, bank details) see the “Company details” page.
+            </p>
+            <a href="/legal/rekvizit.html" class="btn btn-outline" data-i18n="contacts.info.cta_rekvizit">
+              See company details
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT: BOOK DEMO (GOOGLE FORM) -->
+        <div class="contacts-form card">
+          <h2 data-i18n="contacts.form.title">
+            Request a demo / consultation
+          </h2>
+          <p data-i18n="contacts.form.subtitle">
+            For now we use a short external form to collect requests. It takes 1–2 minutes to fill.
+          </p>
+
+          <a href="https://forms.gle/YOUR_DEMO_FORM"
+             class="btn btn-primary contacts-form-btn"
+             data-i18n="contacts.form.cta">
+            Open demo request form
+          </a>
+
+          <p class="contacts-form-hint" data-i18n="contacts.form.hint">
+            You will be redirected to a Google Form where we ask about your company, number of tenders and current tools.
+          </p>
+
+          <!-- 2GIS / Yandex maps placeholder -->
+          <div class="contacts-map-placeholder">
+            <h3 data-i18n="contacts.map.title">Office location (2GIS / Yandex)</h3>
+            <p data-i18n="contacts.map.text">
+              Here we will later embed a map and link to our 2GIS / Yandex business cards.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

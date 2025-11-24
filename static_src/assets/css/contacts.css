@@ -1,0 +1,73 @@
+/* assets/css/contacts.css */
+
+.contacts-hero {
+  padding-top: 72px;
+}
+
+.contacts-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 24px;
+}
+
+.contacts-info,
+.contacts-form {
+  background-color: #ffffff;
+  border-radius: 22px;
+  box-shadow: var(--shadow-soft);
+  padding: 24px 22px;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 20px;
+  font-size: 14px;
+}
+
+.contacts-list li + li {
+  margin-top: 8px;
+}
+
+.contacts-list a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.contacts-list a:hover {
+  text-decoration: underline;
+}
+
+.contacts-note {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.contacts-note .btn {
+  margin-top: 8px;
+}
+
+.contacts-form-btn {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.contacts-form-hint {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.contacts-map-placeholder {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px dashed #e5e7eb;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+@media (max-width: 900px) {
+  .contacts-grid {
+    grid-template-columns: 1fr;
+  }
+}

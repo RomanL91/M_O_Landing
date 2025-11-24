@@ -1,0 +1,27 @@
+{
+  "slug": "why-construction-companies-lose-money-in-excel",
+  "lang": "ru",
+  "title": "Почему строительные компании теряют деньги в Excel",
+  "date": "2025-11-01",
+  "reading_time": "7 min",
+  "cover_image": "/assets/img/blog/excel-losses.png",
+  "sections": [
+    {
+      "type": "p",
+      "text": "Во многих компаниях сметы и коммерческие предложения до сих пор ведутся только в Excel."
+    },
+    {
+      "type": "h2",
+      "text": "1. Нет единой структуры смет"
+    },
+    {
+      "type": "p",
+      "text": "Каждый инженер копирует старый файл и переделывает его под новый объект."
+    }
+  ],
+  "cta": {
+    "text": "Хотите посмотреть, как ваши сметы будут выглядеть в Metis One?",
+    "button_text": "Запросить демо",
+    "button_url": "https://forms.gle/YOUR_DEMO_FORM"
+  }
+}

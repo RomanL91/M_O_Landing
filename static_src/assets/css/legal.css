@@ -1,0 +1,28 @@
+/* assets/css/legal.css */
+
+.legal-section {
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.legal-content {
+  max-width: 720px;
+}
+
+.legal-content h1 {
+  margin-bottom: 12px;
+}
+
+.legal-content p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+.legal-table-placeholder {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 14px;
+  background-color: #f1f5f9;
+  font-size: 13px;
+  color: var(--color-muted);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3X2RJYGFSD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3X2RJYGFSD');
+  </script>
+  <meta charset="UTF-8" />
+  <title data-i18n="meta.blog.title">Metis One Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description"
+        content="Articles about tenders, smetas, automation and budgeting. First in Russian, later in other languages."
+        data-i18n-attr="content:meta.blog.description" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/blog.css" />
+</head>
+<body>
+  <div data-include="header"></div>
+
+  <main>
+    <section class="blog-hero">
+      <div class="container">
+        <h1 data-i18n="blog.hero.title">
+          Metis One Blog
+        </h1>
+        <p class="section-intro" data-i18n="blog.hero.subtitle">
+          Articles about tenders, smetas, automation and budgeting — first in Russian, later in other languages.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="blog-list" class="blog-grid">
+          <!-- JS ile doldurulacak -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/blog.js"></script>
+</body>
+</html>

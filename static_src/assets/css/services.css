@@ -1,0 +1,205 @@
+/* SERVICES PAGE
+   ---------------------------------------- */
+
+/* Genel section spacing (sadece services için) */
+main > section {
+  padding: 64px 0;
+}
+
+@media (max-width: 640px) {
+  main > section {
+    padding: 48px 0;
+  }
+}
+
+/* HERO */
+
+.services-hero {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  background: radial-gradient(circle at top right, rgba(34, 197, 190, 0.10), transparent),
+              linear-gradient(to bottom, #ffffff, #f9fafb);
+}
+
+.services-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.services-hero-text {
+  flex: 1.1;
+}
+
+.services-hero-text h1 {
+  font-size: clamp(26px, 3vw, 32px);
+  margin-bottom: 12px;
+}
+
+.services-hero-text p {
+  font-size: 15px;
+  color: var(--color-muted);
+  max-width: 520px;
+}
+
+.services-hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.services-hero-image {
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 24px;
+  box-shadow: var(--shadow-soft);
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Mobile hero */
+
+@media (max-width: 960px) {
+  .services-hero-inner {
+    flex-direction: column-reverse;
+  }
+
+  .services-hero-text {
+    text-align: center;
+  }
+
+  .services-hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* 1-WEEK MVP */
+
+.services-mvp {
+  background-color: #ffffff;
+}
+
+.services-mvp-grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.services-mvp-step {
+  border-radius: 22px;
+  padding: 16px 16px 18px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.services-mvp-image {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 1:1 */
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  background-color: #e5e7eb;
+}
+
+.services-mvp-step h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.services-mvp-step p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* MVP responsive */
+
+@media (max-width: 1024px) {
+  .services-mvp-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .services-mvp-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* WHAT WE BUILD */
+
+.services-build {
+  background-color: #f9fafb;
+}
+
+.services-build-grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.services-build-card {
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 18px 18px 20px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.services-build-icon-wrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  background: rgba(13, 148, 136, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.services-build-icon {
+  font-size: 80px;
+  color: var(--color-primary-dark);
+}
+
+.services-build-card h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.services-build-card p {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* What we build responsive */
+
+@media (max-width: 960px) {
+  .services-build-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .services-build-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FINAL CTA (services sayfasına küçük dokunuş) */
+
+.final-cta {
+  background: linear-gradient(to right, #0f766e, #14b8a6);
+  color: #ffffff;
+}
+
+.final-cta h2,
+.final-cta p {
+  color: #ffffff;
+}

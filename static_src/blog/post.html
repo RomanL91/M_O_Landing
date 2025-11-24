@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Metis One Blog Post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Dinamik meta için blog.js içinde head update yapabiliriz (MVP'de statik kalsın) -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/blog.css" />
+</head>
+<body>
+  <div data-include="header"></div>
+
+  <main>
+    <section class="blog-post">
+      <div class="container">
+        <article id="post-container">
+          <!-- JS ile doldurulacak -->
+        </article>
+
+        <aside class="blog-share">
+          <h3 data-i18n="blog.share.title">Share this article</h3>
+          <div class="blog-share-buttons">
+            <a href="#" id="share-tg">TG</a>
+            <a href="#" id="share-wa">WA</a>
+            <a href="#" id="share-x">X</a>
+            <a href="#" id="share-li">in</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/blog.js"></script>
+</body>
+</html>
