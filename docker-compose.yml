@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    image: m_o_landing:latest
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    # Раскомментируйте следующие строки для перезагрузки кода в режиме реального времени во время локальной разработки.
+    # volumes:
+    #   - ./app:/app/app:ro
+    #   - ./static_src:/app/static_src:ro
+    # command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8001", "--reload"]
