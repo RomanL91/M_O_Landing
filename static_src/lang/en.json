@@ -234,16 +234,24 @@
   "prices.tender.plan2.cta": "Discuss this plan",
 
 
-  "prices.tender.plan3.name": "1000+ lines / Enterprise",
+  "prices.tender.plan3.name": "1000+ lines",
   "prices.tender.plan3.desc": "For large companies, complex tenders and long-term partnerships — with custom limits and integrations.",
   "prices.tender.plan3.price": "50.000,00 RUB monthly / 500.000,00 RUB yearly",
   "prices.tender.plan3.f1": "From 1000+ positions (lines) per smeta and custom structures",
   "prices.tender.plan3.f2": "Unlimited smetas, projects and flexible user limits",
   "prices.tender.plan3.f3": "Dedicated onboarding, SLA and integrations (e.g. material price feeds)",
   "prices.tender.plan3.f4": "Annual contracts with 2 months free",
-  "prices.tender.plan3.cta": "Discuss Enterprise",
+  "prices.tender.plan3.cta": "Discuss this plan",
 
 
+  "prices.tender.plan4.name": "Enterprise+",
+  "prices.tender.plan4.desc": "For investors, developers and large general contractors working with complex, multi-stage projects and portfolios.",
+  "prices.tender.plan4.price": "Custom pricing — let's discuss your project",
+  "prices.tender.plan4.f1": "No line limits — tailored to your tender and budgeting process",
+  "prices.tender.plan4.f2": "Dedicated implementation with your smeta standards and internal procedures",
+  "prices.tender.plan4.f3": "Priority support, SLA and extended integrations (ERPs, CRMs, material price feeds)",
+  "prices.tender.plan4.f4": "Optional on-site workshops, training and joint process optimization",
+  "prices.tender.plan4.cta": "Discuss Enterprise",
 
   "prices.services.title": "Implementation & custom development",
   "prices.services.subtitle": "For custom modules (HR, timesheets, payroll, internal tools) we work in 1–2 week sprints with clear scope and budget.",

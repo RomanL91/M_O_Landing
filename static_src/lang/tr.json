@@ -194,14 +194,24 @@
   "prices.tender.plan2.f4": "Yıllık ödemede 2 ay ücretsiz",
   "prices.tender.plan2.cta": "Bu tarifeyi konuşalım",
 
-  "prices.tender.plan3.name": "1000+ satır / Enterprise",
+  "prices.tender.plan3.name": "1000+ satır",
   "prices.tender.plan3.desc": "Büyük firmalar, kompleks tenderler ve uzun vadeli projeler için özel limitler ve entegrasyonlar.",
   "prices.tender.plan3.price": "50.000₽ / ay — 500.000₽ / yıl",
   "prices.tender.plan3.f1": "1000+ satır ve özel yapılandırmalar",
   "prices.tender.plan3.f2": "Sınırsız smeta, proje ve esnek kullanıcı limitleri",
   "prices.tender.plan3.f3": "Özel onboarding, SLA ve entegrasyonlar (örn. malzeme fiyat akışları)",
   "prices.tender.plan3.f4": "Yıllık sözleşmelerde 2 ay ücretsiz",
-  "prices.tender.plan3.cta": "Enterprise görüşmesi",
+  "prices.tender.plan3.cta": "Bu tarifeyi konuşalım",
+
+  "prices.tender.plan4.name": "Enterprise+",
+  "prices.tender.plan4.desc": "Karmaşık, çok aşamalı projeler ve portföylerle çalışan yatırımcılar, geliştiriciler ve büyük genel yüklenici firmalar için.",
+  "prices.tender.plan4.price": "Proje bazlı özel fiyat — birlikte değerlendirelim",
+  "prices.tender.plan4.f1": "Sınırsız satır — ihale ve bütçe süreçlerinize göre tamamen özelleştirilmiş yapı",
+  "prices.tender.plan4.f2": "Şirketinizin smeta standartları ve iç prosedürlerine uygun özel kurulum",
+  "prices.tender.plan4.f3": "Öncelikli destek, SLA ve genişletilmiş entegrasyonlar (ERP, CRM, malzeme fiyat beslemeleri)",
+  "prices.tender.plan4.f4": "Talebe bağlı olarak yerinde workshop, eğitim ve süreç optimizasyonu",
+  "prices.tender.plan4.cta": "Enterprise+ için iletişime geçin",
+  
 
   "prices.final_cta.title": "Hangi planın size uygun olduğundan emin değil misiniz?",
   "prices.final_cta.subtitle": "Tender veya bütçe hazırlama sürecinizden bahsedin — size en uygun planı önerelim.",
